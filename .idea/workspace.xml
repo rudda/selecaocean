@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cadastrar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database/banco.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/conexao.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/noticias.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/visualizar.html" />
-    </list>
+    <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="" />
     <ignored path="selecaocean.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,12 +135,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1491060179013</updated>
-      <workItem from="1491060181483" duration="312000" />
+      <workItem from="1491060181483" duration="903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="312000" />
+    <option name="totallyTimeSpent" value="903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
