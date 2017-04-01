@@ -27,15 +27,32 @@
 
 }
 
+.news{
+    margin-bottom: 20px;
+}
 .news-desc{
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: clip;
+    max-lines: 4;
     position: relative;
     margin-top: -50%;
-    height: 150px;
+    height: 177px;
+    width: 387px;
     background-color: #333333;
     opacity: 0.8;
     filter: alpha(opacity=70);
 }
 
 .news-desc h5{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 10px;
     color: white;
+    text-overflow: ellipsis;
+
+}
+.news-img{
+    position: relative;
 }

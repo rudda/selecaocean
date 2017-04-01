@@ -28,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -38,12 +38,12 @@
       <file leaf-file-name="comic.news.home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/comic.news.home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="503">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <marker date="1491072625089" expanded="false" signature="11:106" ph="{...}" />
-                <marker date="1491072625089" expanded="false" signature="122:270" ph="{...}" />
-                <marker date="1491072625089" expanded="false" signature="277:397" ph="{...}" />
+                <marker date="1491075667312" expanded="false" signature="11:106" ph="{...}" />
+                <marker date="1491075667312" expanded="false" signature="122:270" ph="{...}" />
+                <marker date="1491075667312" expanded="false" signature="277:397" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,9 +82,8 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1" />
-    <option name="y" value="1" />
     <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -252,15 +251,15 @@
       <option name="presentableId" value="Default" />
       <updated>1491060179013</updated>
       <workItem from="1491060181483" duration="4279000" />
-      <workItem from="1491068537096" duration="3715000" />
+      <workItem from="1491068537096" duration="9174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7994000" />
+    <option name="totallyTimeSpent" value="13453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="1" y="0" width="1364" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -352,20 +351,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/comic.news.home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="503">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
-            <marker date="1491072625089" expanded="false" signature="11:106" ph="{...}" />
-            <marker date="1491072625089" expanded="false" signature="122:270" ph="{...}" />
-            <marker date="1491072625089" expanded="false" signature="277:397" ph="{...}" />
+            <marker date="1491075667312" expanded="false" signature="11:106" ph="{...}" />
+            <marker date="1491075667312" expanded="false" signature="122:270" ph="{...}" />
+            <marker date="1491075667312" expanded="false" signature="277:397" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="86" column="49" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
           <folding />
         </state>
       </provider>
