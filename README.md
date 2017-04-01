@@ -11,3 +11,7 @@ Repositorio para seleção de estagio Web Samsung Ocean
 * /src - recursos como imagens, videos, etc.
 * /vendor - pacote do composer
 
+# Recursos
+
+* bootstrap
+* Slim
