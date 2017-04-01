@@ -26,3 +26,16 @@
     margin-top: 5px;
 
 }
+
+.news-desc{
+    position: relative;
+    margin-top: -50%;
+    height: 150px;
+    background-color: #333333;
+    opacity: 0.8;
+    filter: alpha(opacity=70);
+}
+
+.news-desc h5{
+    color: white;
+}
