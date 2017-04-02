@@ -11,7 +11,7 @@ namespace Beltrao\api\v1\application;
 use Beltrao\api\v1\model\noticias as ntc;
 use Beltrao\api\v1\database\conexao;
 use PDO;
-require (__DIR__.'/../../../../vendor/autoload.php');
+//require (__DIR__.'/../../../../vendor/autoload.php');
 class Application
 {
 
@@ -73,19 +73,6 @@ class Application
 
 }
 
-    $com = conexao::connect();
-    var_dump($com);
-    
-    $n  = new ntc();
-    $n->titulo = 'primeira noticia';
-    $n->img= 'http://google.com.img.jpg';
-    $n->autor = 'rudda beltrao';
-    $n->descricao = 'asdsadsadsadsadsa';
-
-    $app = new Application();
-    echo $app->addNews($n);
-
-    echo $app->getNews();
     
     
 
