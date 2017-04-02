@@ -9,24 +9,24 @@ namespace Beltrao\api\v1\authentication;
  * beltrao.rudah@gmail.com
  */
 use Beltrao\api\v1\database\conexao;
-
+use PDO;
 require (__DIR__."/../../../../vendor/autoload.php");
 class Auth
 {
 
     
     
-    public static function authenticationToken ($app_name, $app_pass){
+    public function authenticationToken ($app_name, $app_pass){
         
         $conn = conexao::connect();
         
         if($conn){
 
-            $smt = $conn->prepare('select app_token from base-authentication where app_name = :app_name');
-            $smt->bindValue(':app_name', $app_name);
+            $smt = $conn->prepare('SELECT * FROM `base-authentication` WHERE `app_name` = :nome');
+            $smt->bindParam(':nome', $app_name);
             $smt->execute();
 
-            if($result = $smt->fetch(\PDO::FETCH_ASSOCC)){
+            if($result = $smt->fetch(PDO::FETCH_ASSOC)){
 
                 if(password_verify($app_name.$app_pass, $result['app_token'])){
 
@@ -37,7 +37,7 @@ class Auth
                     if($rehash === true){
 
                         password_hash($result['app_token'], PASSWORD_DEFAULT, ['cost'=>15]);
-                        updateToken($app_name, $result['app_token']);
+                        $this->updateToken($app_name, $result['app_token']);
 
                     }
                     return true;
@@ -99,11 +99,23 @@ class Auth
      * @return boolean
      * */
 
-    public function updateToken($app_name, $token){
+    private function updateToken($app_name, $token){
 
-        $sql = 'update base-authentication set app_token = '.$token.' where app_name = '.$app_name;
+        $sql = 'UPDATE `base-authentication` SET `app_token` = :token where `app_name` = :nome ';
+
         $db = conexao::connect();
-        return $db->exec($sql);
+        $stmt= $db->prepare($sql);
+        $stmt->bindParam(':token', $token);
+        $stmt->bindParam(':nome', $app_name);
+
+        if($stmt->execute()){
+
+            return true;
+        }
+
+        return  false;
+
+
 
     }
 
@@ -112,5 +124,5 @@ class Auth
 
 
     $a = new Auth();
-    echo $a->addToken("comicsnews-Web", "beltrao123");
+    echo $a->authenticationToken("comicsnews-Web", "beltrao123");
 

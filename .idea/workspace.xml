@@ -37,11 +37,11 @@
       <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state relative-caret-position="280">
+              <caret line="68" column="58" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="58" />
               <folding>
                 <element signature="e#215#256#0#PHP" expanded="true" />
-                <element signature="e#1222#1625#0#PHP" expanded="false" />
+                <element signature="e#478#1126#0#PHP" expanded="false" />
                 <marker date="1491142530456" expanded="true" signature="534:554" ph="insert into noticias... " />
                 <marker date="1491142530456" expanded="true" signature="534:626" ph="insert into noticias... " />
                 <marker date="1491142530456" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
@@ -54,18 +54,19 @@
       <file leaf-file-name="Auth.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/api/v1/authentication/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="366">
+              <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
-                <element signature="e#2137#2358#0#PHP" expanded="false" />
-                <marker date="1491152135529" expanded="true" signature="514:574" ph="select token... authentication" />
-                <marker date="1491152135529" expanded="true" signature="514:582" ph="select app_t... base" />
-                <marker date="1491152135529" expanded="true" signature="1672:1745" ph="insert into base... " />
-                <marker date="1491152135529" expanded="true" signature="2202:2244" ph="update base-... " />
-                <marker date="1491152135529" expanded="true" signature="2202:2245" ph="update base-... " />
-                <marker date="1491152135529" expanded="true" signature="2202:2272" ph="update base-... " />
-                <marker date="1491152135529" expanded="true" signature="2202:2273" ph="update base-... " />
-                <marker date="1491152135529" expanded="true" signature="2202:2274" ph="update base-... " />
+                <element signature="e#218#254#0#PHP" expanded="true" />
+                <element signature="e#1427#1992#0#PHP" expanded="false" />
+                <element signature="e#2131#2538#0#PHP" expanded="false" />
+                <marker date="1491153291213" expanded="true" signature="515:571" ph="select app_t... base" />
+                <marker date="1491153291213" expanded="true" signature="515:575" ph="SELECT * FRO... base-authentication" />
+                <marker date="1491153291213" expanded="true" signature="1666:1739" ph="insert into base... " />
+                <marker date="1491153291213" expanded="true" signature="2229:2243" ph="update base-... " />
+                <marker date="1491153291213" expanded="true" signature="2229:2244" ph="update base-... " />
+                <marker date="1491153291213" expanded="true" signature="2229:2269" ph="update base-... " />
+                <marker date="1491153291213" expanded="true" signature="2229:2276" ph="update base-... " />
               </folding>
             </state>
           </provider>
@@ -310,12 +311,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491060179013</updated>
       <workItem from="1491060181483" duration="4279000" />
-      <workItem from="1491068537096" duration="33303000" />
+      <workItem from="1491068537096" duration="34459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37582000" />
+    <option name="totallyTimeSpent" value="38738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1364" height="728" extended-state="0" />
@@ -589,11 +590,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="280">
+          <caret line="68" column="58" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="58" />
           <folding>
             <element signature="e#215#256#0#PHP" expanded="true" />
-            <element signature="e#1222#1625#0#PHP" expanded="false" />
+            <element signature="e#478#1126#0#PHP" expanded="false" />
             <marker date="1491142530456" expanded="true" signature="534:554" ph="insert into noticias... " />
             <marker date="1491142530456" expanded="true" signature="534:626" ph="insert into noticias... " />
             <marker date="1491142530456" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
@@ -604,18 +605,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/api/v1/authentication/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="366">
+          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
-            <element signature="e#2137#2358#0#PHP" expanded="false" />
-            <marker date="1491152135529" expanded="true" signature="514:574" ph="select token... authentication" />
-            <marker date="1491152135529" expanded="true" signature="514:582" ph="select app_t... base" />
-            <marker date="1491152135529" expanded="true" signature="1672:1745" ph="insert into base... " />
-            <marker date="1491152135529" expanded="true" signature="2202:2244" ph="update base-... " />
-            <marker date="1491152135529" expanded="true" signature="2202:2245" ph="update base-... " />
-            <marker date="1491152135529" expanded="true" signature="2202:2272" ph="update base-... " />
-            <marker date="1491152135529" expanded="true" signature="2202:2273" ph="update base-... " />
-            <marker date="1491152135529" expanded="true" signature="2202:2274" ph="update base-... " />
+            <element signature="e#218#254#0#PHP" expanded="true" />
+            <element signature="e#1427#1992#0#PHP" expanded="false" />
+            <element signature="e#2131#2538#0#PHP" expanded="false" />
+            <marker date="1491153291213" expanded="true" signature="515:571" ph="select app_t... base" />
+            <marker date="1491153291213" expanded="true" signature="515:575" ph="SELECT * FRO... base-authentication" />
+            <marker date="1491153291213" expanded="true" signature="1666:1739" ph="insert into base... " />
+            <marker date="1491153291213" expanded="true" signature="2229:2243" ph="update base-... " />
+            <marker date="1491153291213" expanded="true" signature="2229:2244" ph="update base-... " />
+            <marker date="1491153291213" expanded="true" signature="2229:2269" ph="update base-... " />
+            <marker date="1491153291213" expanded="true" signature="2229:2276" ph="update base-... " />
           </folding>
         </state>
       </provider>
