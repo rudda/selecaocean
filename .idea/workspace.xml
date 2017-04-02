@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/api/v1/authentication/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/cadastrar.html" afterPath="$PROJECT_DIR$/html/cadastrar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/visualizar.html" afterPath="$PROJECT_DIR$/html/visualizar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/api/v1/model/noticias.php" afterPath="$PROJECT_DIR$/php/api/v1/model/noticias.php" />
     </list>
     <ignored path="selecaocean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +36,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="noticias.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/api/v1/model/noticias.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/api/v1/authentication/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -81,13 +86,13 @@
         <option value="$PROJECT_DIR$/css/comic.visualizar.css" />
         <option value="$PROJECT_DIR$/php/api/v1/Teste.php" />
         <option value="$PROJECT_DIR$/php/api/v1/database/conexao.php" />
-        <option value="$PROJECT_DIR$/php/api/v1/model/noticias.php" />
         <option value="$PROJECT_DIR$/php/api/v1/index.php" />
         <option value="$PROJECT_DIR$/html/visualizar.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/cadastrar.html" />
         <option value="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
         <option value="$PROJECT_DIR$/php/api/v1/authentication/Auth.php" />
+        <option value="$PROJECT_DIR$/php/api/v1/model/noticias.php" />
       </list>
     </option>
   </component>
@@ -190,7 +195,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routers" />
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -305,12 +310,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491060179013</updated>
       <workItem from="1491060181483" duration="4279000" />
-      <workItem from="1491068537096" duration="22916000" />
+      <workItem from="1491068537096" duration="23761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27195000" />
+    <option name="totallyTimeSpent" value="28040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1364" height="728" extended-state="0" />
@@ -454,14 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/api/v1/model/noticias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/api/v1/database/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -527,6 +524,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/php/api/v1/authentication/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+          <folding>
+            <element signature="e#236#564#0#PHP" expanded="false" />
+            <element signature="e#574#1023#0#PHP" expanded="false" />
+            <marker date="1491108969182" expanded="true" signature="715:765" ph="select token... authentication" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -537,15 +546,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/api/v1/authentication/Auth.php">
+    <entry file="file://$PROJECT_DIR$/php/api/v1/model/noticias.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-          <folding>
-            <element signature="e#236#564#0#PHP" expanded="false" />
-            <element signature="e#574#1023#0#PHP" expanded="false" />
-            <marker date="1491108969182" expanded="true" signature="715:765" ph="select token... authentication" />
-          </folding>
+        <state relative-caret-position="275">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
