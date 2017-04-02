@@ -8,28 +8,16 @@ namespace Beltrao\api\v1\authentication;
  * www.lab312-icetufam.com.br
  * beltrao.rudah@gmail.com
  */
+use Beltrao\api\v1\database\conexao;
 class Auth
 {
 
-    private function connect(){
-
-        try {
-            $conn = new PDO('mysql:host=localhost'.';dbname=portal-aluno', 'root','');
-            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            return $conn;
-        }
-
-        catch(PDOException $e)
-        {
-            return false;
-        }
-
-
-
-    }
+    
     
     public static function authenticationToken ($token){
-        $conn = Auth::connect();
+        
+        $conn = conexao::connect();
+        
         if($conn){
 
             $smt = $conn->prepare('select token from authentication where token = :tk');
