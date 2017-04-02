@@ -9,6 +9,8 @@ namespace Beltrao\api\v1\authentication;
  * beltrao.rudah@gmail.com
  */
 use Beltrao\api\v1\database\conexao;
+
+require (__DIR__."/../../../../vendor/autoload.php");
 class Auth
 {
 
@@ -69,10 +71,11 @@ class Auth
 
         if($db!= false && $db!= null){
 
-            $sql = 'insert into base-authentication (app_name, app_token) values (:n, :tk)';
+            $sql = 'INSERT INTO `base-authentication`(`app_name`, `app_token`) VALUES(:n,:tk)';
+
             $stmt = $db->prepare($sql);
-            $stmt->bindParam(':tk', $token);
             $stmt->bindParam(':n', $name);
+            $stmt->bindParam(':tk', $token);
 
             if($stmt->execute()){
 
@@ -106,3 +109,8 @@ class Auth
 
 
 }
+
+
+    $a = new Auth();
+    echo $a->addToken("comicsnews-Web", "beltrao123");
+
