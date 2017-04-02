@@ -6,7 +6,7 @@ use PDO;
         static function connect(){
 
             try {
-                $conn = new PDO('mysql:host=localhost'.';dbname=comicnews', 'root','');
+                $conn = new PDO('mysql:host=localhost'.';dbname=comicsnews', 'root','');
                 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
                 return $conn;
             }

@@ -11,14 +11,14 @@ namespace Beltrao\api\v1\application;
 use Beltrao\api\v1\model\noticias as ntc;
 use Beltrao\api\v1\database\conexao;
 use PDO;
-
+require (__DIR__.'/../../../../vendor/autoload.php');
 class Application
 {
 
 
     public function addNews(ntc $noticia){
 
-        $sql = 'insert into noticias(titulo, descricao, img, autor) values(:titulo, :descricao, :img, :autor)';
+        $sql = 'insert into noticia(titulo, descricao, img, autor) values(:titulo, :descricao, :img, :autor)';
         $db = conexao::connect();
 
         if($db != null && $db!= false){
@@ -45,14 +45,14 @@ class Application
        return false;
     }
 
-    public function getNews($limit){
+    public function getNews($limit= 20){
 
-        $sql = 'select * from noticias order by data limit 0, '.$limit;
+        $sql = 'select * from noticia order by noticia.data limit 0, '.$limit;
         $db = conexao::connect();
 
         if($db != null && $db!= false){
 
-            $stmt = $db->prepare($sql);
+            $stmt = $db->query($sql);
 
             while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
 
@@ -69,6 +69,26 @@ class Application
     }
 
 
-    
+
 
 }
+
+    $com = conexao::connect();
+    var_dump($com);
+    
+    $n  = new ntc();
+    $n->titulo = 'primeira noticia';
+    $n->img= 'http://google.com.img.jpg';
+    $n->autor = 'rudda beltrao';
+    $n->descricao = 'asdsadsadsadsadsa';
+
+    $app = new Application();
+    echo $app->addNews($n);
+
+    echo $app->getNews();
+    
+    
+
+
+
+
