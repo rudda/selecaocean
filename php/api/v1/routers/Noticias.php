@@ -19,9 +19,10 @@ use Beltrao\api\v1\model\noticias;
 
     
     $app->get('/news', function (Request $request, Response$response, $args){
+        
+        $auth = new Auth();
 
-
-        if(Auth::authenticationToken($request->getQueryParam('token'))){
+        if($auth->authenticationToken($request->getQueryParam('app_name'), $request->getQueryParam('app_pass'))){
 
             $application = new Application();
             $response->write($application->getNews());
@@ -33,7 +34,9 @@ use Beltrao\api\v1\model\noticias;
     
     $app->put('/news', function (Request $request, Response $response, $args){
 
-        if(Auth::authenticationToken($request->getQueryParam('token'))){
+        $auth = new Auth();
+        
+        if( $auth->authenticationToken($request->getQueryParam('token'))){
 
             $noticia = new noticias();
 
