@@ -54,7 +54,11 @@ use Beltrao\api\v1\model\noticias;
 
         }
     });
-
+    
+    $app->post('/news', function (Request $request, Response $response, $args){
+       
+        var_dump($request->getParams());
+    });
 
 
 
