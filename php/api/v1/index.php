@@ -12,6 +12,10 @@ namespace Beltrao\api\v1;
  * www.lab312-icetufam.com.br
  * beltrao.rudah@gmail.com
  */
+    mb_internal_encoding("UTF-8");
+    mb_http_output( "iso-8859-1" );
+    ob_start("mb_output_handler");
+    setlocale(LC_ALL, 'pt_BR.utf8');
 
     require (__DIR__.'/../../../vendor/autoload.php');
     use Slim\App;

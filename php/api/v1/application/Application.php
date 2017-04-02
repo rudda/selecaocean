@@ -15,7 +15,12 @@ use PDO;
 class Application
 {
 
-
+    /*
+     * addNews
+     * @param noticia $noticia
+     * @return boolean
+     * 
+     * */
     public function addNews(ntc $noticia){
 
         $sql = 'insert into noticia(titulo, descricao, img, autor) values(:titulo, :descricao, :img, :autor)';
@@ -45,6 +50,13 @@ class Application
        return false;
     }
 
+    
+    /*
+     * getNews
+     * 
+     * @param int $limit
+     * @return json
+     * */
     public function getNews($limit= 20){
 
         $sql = 'select * from noticia order by noticia.data limit 0, '.$limit;
@@ -67,7 +79,6 @@ class Application
 
 
     }
-
 
 
 
