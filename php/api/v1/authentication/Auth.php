@@ -122,7 +122,3 @@ class Auth
 
 }
 
-
-    $a = new Auth();
-    echo $a->authenticationToken("comicsnews-Web", "beltrao123");
-
