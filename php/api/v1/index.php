@@ -18,6 +18,7 @@ namespace Beltrao\api\v1;
 
     $app = new App();
     include (__DIR__.'/routers/Noticias.php');
+    include (__DIR__.'/routers/Home.php');
     $app->run();
 
 
