@@ -14,25 +14,29 @@ $(function () {
         data[chave]= valor;
         
     });
-    
+
+
     viewComic(data.id);
     
     
     function viewComic(id)
     {
 
-        $.get('http://localhost/selecaocean/php/api/v1/news',{
+        $.get('../php/api/v1/news',{
 
             app_name : 'comicsnews-Web',
             app_pass : 'beltrao123',
             id: id
         }).done(function (data) {
-            console.log(data);
+
             var comic = JSON.parse(data)[0];
+            var srcImagem = comic['img'].replace('http://localhost/selecaocean/', '../');
+
+
             $('#img').html(
                 '<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">'+
                 '<div class="thumbnail">'+
-                '<img class="image-area" src="'+comic['img']+'" style="max-height: 600px; max-width: 300px">'+
+                '<img class="image-area" src="'+srcImagem+'" style="max-height: 600px; max-width: 300px">'+
                 '</div>'+
                 '</div>'
             );

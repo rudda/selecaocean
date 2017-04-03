@@ -13,7 +13,7 @@
             fd.append('autor',$('#autor').val());
             fd.append('descricao',CKEDITOR.instances.editor1.getData());
            $.ajax({
-               url: 'http://localhost/selecaocean/php/api/v1/news',
+               url: 'php/api/v1/news',
                type: 'POST',
                data : fd,
                processData: false,
