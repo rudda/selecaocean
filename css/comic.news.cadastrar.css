@@ -1,0 +1,12 @@
+.bt-area{ position: relative; }
+.bt{ float: right}
+
+.formulario {  padding: 10px; }
+.formulario input{ margin-bottom: 10px}
+
+.bt{
+
+    width: 150px;
+    font-size: 15px;
+    margin-right: 20px;
+}

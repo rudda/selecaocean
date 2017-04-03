@@ -30,13 +30,22 @@ $(function(){
 
     }
 
+    function linkTo(){
+
+        alert('oi');
+        //window.location.href = "html/visualizar";
+
+    }
+
+
+
     function addNews(data) {
         var str= '';
         for(var i=0; i<data.length; i++){
-
+                var divid = 'n'+i;
             str += '<div class="col-xs-12  col-sm-4 col-md-3 col-lg-3">'
-            +' <div class="thumbnail">'
-            +'<img src="'+data[i].img+'" alt="...">'
+            +' <div class="thumbnail" id="'+divid+'" onclick=" ck(1)">'
+            +'<img src="'+data[i].img+'" alt="'+data[i].titulo+'">'
             +'<div class="caption">'
             +'<h3>'+data[i].titulo+'</h3>'
             +' '+data[i].descricao.substring(0, 100)
@@ -44,11 +53,16 @@ $(function(){
             +' </div>'
             +'</div>';
 
-
+            
         }
 
         return str;
 
     }
+
+    function ck(r){
+        alert(r);
+    }
+
 
 });

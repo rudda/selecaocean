@@ -4,25 +4,20 @@
 
     $(function () {
 
-        $('#formulario').submit(function () {
+        $('#formulario').submit(function (e) {
+            var fd = new FormData();
+            fd.append('photo',$('#photo')[0].files[0]);
 
-            
-
-            $.ajax('http://localhost/selecaocean/php/api/v1/news', {
-                type: 'POST',
-                data: formData
-
-            }).done(function (response) {
-
-                
-               
-
-            })
+           $.ajax({
+               url: 'http://localhost/selecaocean/php/api/v1/news',
+               type: 'POST',
+               data : fd,
+               processData: false,
+               contentType: false,
+               success: function (data) {
+                   alert(data);
+               }
+           });
+            e.preventDefault();
         });
-
-       
-        
-        
     });
-    
-

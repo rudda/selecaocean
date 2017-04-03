@@ -10,7 +10,7 @@ namespace Beltrao\api\v1\routers;
  */
 
 use Beltrao\api\v1\authentication\Auth;
-use Slim\App;
+
 use Slim\Http\Request;
 use Slim\Http\Response;
 use Beltrao\api\v1\application\Application;
@@ -33,6 +33,8 @@ use Beltrao\api\v1\model\noticias;
     });
     
     $app->put('/news', function (Request $request, Response $response, $args){
+
+
 
         $auth = new Auth();
         
@@ -57,7 +59,7 @@ use Beltrao\api\v1\model\noticias;
     
     $app->post('/news', function (Request $request, Response $response, $args){
        
-        var_dump($request->getParams());
+       $response->write('asdasadsadasdasd');
     });
 
 
