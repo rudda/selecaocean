@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/newscomic.cadastrar.js" afterPath="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" afterPath="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
     </list>
     <ignored path="selecaocean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Noticias.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Noticias.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
@@ -55,31 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cadastrar.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/cadastrar.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newscomic.cadastrar.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="newscomic.cadastrar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -121,11 +100,11 @@
         <option value="$PROJECT_DIR$/js/newscomic.home.js" />
         <option value="$PROJECT_DIR$/css/comic.news.visualizar.css" />
         <option value="$PROJECT_DIR$/css/comic.news.cadastrar.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/html/cadastrar.html" />
-        <option value="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
         <option value="$PROJECT_DIR$/php/api/v1/application/Application.php" />
         <option value="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
       </list>
     </option>
   </component>
@@ -345,12 +324,12 @@
       <workItem from="1491060181483" duration="4279000" />
       <workItem from="1491068537096" duration="35110000" />
       <workItem from="1491162273446" duration="16809000" />
-      <workItem from="1491233224476" duration="9796000" />
+      <workItem from="1491233224476" duration="10056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65994000" />
+    <option name="totallyTimeSpent" value="66254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -681,51 +660,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/cadastrar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/servidor-lab-download/gerenciador/cadastro.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#478#1126#0#PHP" expanded="false" />
-            <marker date="1491243187661" expanded="true" signature="534:554" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="534:626" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
-            <marker date="1491243187661" expanded="true" signature="1276:1329" ph="select * fro... noticias" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,6 +685,46 @@
           <folding>
             <element signature="e#212#251#0#PHP" expanded="true" />
             <element signature="e#409#736#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/cadastrar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#478#1126#0#PHP" expanded="false" />
+            <marker date="1491243187661" expanded="true" signature="534:554" ph="insert into noticias... " />
+            <marker date="1491243187661" expanded="true" signature="534:626" ph="insert into noticias... " />
+            <marker date="1491243187661" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
+            <marker date="1491243187661" expanded="true" signature="1276:1329" ph="select * fro... noticias" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -19,7 +19,11 @@
                processData: false,
                contentType: false,
                success: function (data) {
-                   alert(data);
+                   if(data == 1){
+
+                       alert("Novo Post realizado com sucesso!!");
+                       window.location.href = "cadastrar.html";
+                   }
                }
            });
             e.preventDefault();
