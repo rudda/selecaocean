@@ -32,35 +32,39 @@ use Beltrao\api\v1\model\noticias;
 
     });
     
-    $app->put('/news', function (Request $request, Response $response, $args){
 
-
+    $app->post('/news', function (Request $request, Response $response, $args){
 
         $auth = new Auth();
-        
-        if( $auth->authenticationToken($request->getQueryParam('token'))){
 
-            $noticia = new noticias();
+        if( $auth->authenticationToken($request->getParam('app_name'), $request->getParam('app_pass'))){
 
-            
-            $noticia->titulo = $request->getParam('titulo');
-            $noticia->autor = $request->getParam('autor');
-            $noticia->descricao = $request->getParam('descricao');
-            
-            //aqui é um file
-            $noticia->img = $request->getParam('img');
-            
-            
-            $application = new Application();
-            $response->write($application->addNews($noticia));
 
+            if(!empty($_FILES['photo'])){
+                $fileName = time().".png";
+                $path = "../../../src/upload/";
+                $absolutePaht = "http://localhost/selecaocean/src/upload/";
+                    if(move_uploaded_file($_FILES['photo']['tmp_name'],$path.$fileName)){
+
+                        $noticia = new noticias();
+
+                        $noticia->titulo = $request->getParam('titulo');
+                        $noticia->autor = $request->getParam('autor');
+                        $noticia->descricao = htmlentities($request->getParam('descricao'));
+                        $noticia->img = $absolutePaht.$fileName;
+
+                        $application = new Application();
+                        $response->write($application->addNews($noticia));
+
+                    }
+            
+
+                }
+
+
+            }
         }
-    });
-    
-    $app->post('/news', function (Request $request, Response $response, $args){
-       
-       $response->write('asdasadsadasdasd');
-    });
+    );
 
 
 
