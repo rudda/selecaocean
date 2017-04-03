@@ -57,14 +57,18 @@ class Application
      * @param int $limit
      * @return json
      * */
-    public function getNews($limit= 20){
+    public function getNews($limit= 20, $id=''){
 
+        
         $sql = 'select * from noticia order by noticia.data limit 0, '.$limit;
+        $sqlID = 'select * from noticia where ID = '.$id;
+        $query = strcmp($id,'')==0 ? $sql : $sqlID;
+        
         $db = conexao::connect();
 
         if($db != null && $db!= false){
 
-            $stmt = $db->query($sql);
+            $stmt = $db->query($query);
 
             while($result = $stmt->fetch(PDO::FETCH_ASSOC)){
 

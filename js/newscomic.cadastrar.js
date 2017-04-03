@@ -24,6 +24,12 @@
                        alert("Novo Post realizado com sucesso!!");
                        window.location.href = "cadastrar.html";
                    }
+                   else{
+
+                       alert("Ocorreu algum erro!!");
+                       window.location.href = "cadastrar.html";                       
+                       
+                   }
                }
            });
             e.preventDefault();

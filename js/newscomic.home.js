@@ -11,9 +11,9 @@ $(function(){
         $.get('http://localhost/selecaocean/php/api/v1/news',{
 
             app_name : 'comicsnews-Web',
-            app_pass : 'beltrao123'
-
-        }).done(function(response){
+            app_pass : 'beltrao123',
+            id: ''
+         }).done(function(response){
             console.log(response);
 
             var data = JSON.parse(response);
@@ -41,14 +41,19 @@ $(function(){
 
     function addNews(data) {
         var str= '';
+
         for(var i=0; i<data.length; i++){
-                var divid = 'n'+i;
+
+            var id = data[i].ID;
+            var im = '<a href="http://localhost/selecaocean/html/visualizar.html?id='+id+'">';
+
+                console.log(im);
             str += '<div class="col-xs-12  col-sm-4 col-md-3 col-lg-3">'
-            +' <div class="thumbnail" id="'+divid+'" onclick=" ck(1)">'
-            +'<img src="'+data[i].img+'" alt="'+data[i].titulo+'">'
+            +' <div class="thumbnail" >'
+            +im+'<img src="'+data[i].img+'" alt="'+data[i].titulo+'"> </a>'
             +'<div class="caption">'
             +'<h3>'+data[i].titulo+'</h3>'
-            +' '+data[i].descricao.substring(0, 100)
+            + data[i].descricao.substring(0, 100)
             + ' </div>'
             +' </div>'
             +'</div>';

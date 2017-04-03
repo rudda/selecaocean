@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/comic.news.home.css" afterPath="$PROJECT_DIR$/css/comic.news.home.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/newscomic.cadastrar.js" afterPath="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/newscomic.home.js" afterPath="$PROJECT_DIR$/js/newscomic.home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/api/v1/application/Application.php" afterPath="$PROJECT_DIR$/php/api/v1/application/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" afterPath="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
     </list>
     <ignored path="selecaocean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,40 +28,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Noticias.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-              <folding>
-                <element signature="e#212#251#0#PHP" expanded="true" />
-                <element signature="e#409#736#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Application.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="378">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="e#478#1126#0#PHP" expanded="false" />
-                <marker date="1491243187661" expanded="true" signature="534:554" ph="insert into noticias... " />
-                <marker date="1491243187661" expanded="true" signature="534:626" ph="insert into noticias... " />
-                <marker date="1491243187661" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
-                <marker date="1491243187661" expanded="true" signature="1276:1329" ph="select * fro... noticias" />
+                <marker date="1491246098353" expanded="true" signature="534:554" ph="insert into noticias... " />
+                <marker date="1491246098353" expanded="true" signature="534:626" ph="insert into noticias... " />
+                <marker date="1491246098353" expanded="true" signature="1293:1345" ph="select * fro... noticias" />
+                <marker date="1491246098353" expanded="true" signature="1293:1346" ph="select * fro... noticias" />
+                <marker date="1491246098353" expanded="true" signature="1374:1406" ph="select * fro... noticia" />
+                <marker date="1491246098353" expanded="true" signature="1374:1407" ph="select * fro... noticia" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newscomic.cadastrar.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
+      <file leaf-file-name="Noticias.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+            <state relative-caret-position="203">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newscomic.home.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/newscomic.home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
               <folding>
                 <element signature="e#0#50#0" expanded="false" />
               </folding>
@@ -87,7 +89,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/a.html" />
         <option value="$PROJECT_DIR$/js/menu-eventListener.js" />
-        <option value="$PROJECT_DIR$/css/comic.news.home.css" />
         <option value="$PROJECT_DIR$/html/inde.html" />
         <option value="$PROJECT_DIR$/css/comic.visualizar.css" />
         <option value="$PROJECT_DIR$/php/api/v1/Teste.php" />
@@ -97,14 +98,15 @@
         <option value="$PROJECT_DIR$/php/api/v1/routers/Home.php" />
         <option value="$PROJECT_DIR$/php/api/v1/index.php" />
         <option value="$PROJECT_DIR$/php/api/v1/authentication/Auth.php" />
-        <option value="$PROJECT_DIR$/js/newscomic.home.js" />
         <option value="$PROJECT_DIR$/css/comic.news.visualizar.css" />
         <option value="$PROJECT_DIR$/css/comic.news.cadastrar.css" />
         <option value="$PROJECT_DIR$/html/cadastrar.html" />
-        <option value="$PROJECT_DIR$/php/api/v1/application/Application.php" />
-        <option value="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
+        <option value="$PROJECT_DIR$/css/comic.news.home.css" />
+        <option value="$PROJECT_DIR$/php/api/v1/application/Application.php" />
+        <option value="$PROJECT_DIR$/php/api/v1/routers/Noticias.php" />
+        <option value="$PROJECT_DIR$/js/newscomic.home.js" />
       </list>
     </option>
   </component>
@@ -179,25 +181,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="upload" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selecaocean" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="selecaocean" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="v1" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -220,6 +212,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -246,6 +242,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selecaocean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selecaocean" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,12 +334,12 @@
       <workItem from="1491060181483" duration="4279000" />
       <workItem from="1491068537096" duration="35110000" />
       <workItem from="1491162273446" duration="16809000" />
-      <workItem from="1491233224476" duration="10056000" />
+      <workItem from="1491233224476" duration="13061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66254000" />
+    <option name="totallyTimeSpent" value="69259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
@@ -384,8 +394,8 @@
         <state relative-caret-position="650">
           <caret line="61" column="44" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
           <folding>
-            <element signature="e#212#251#0#PHP" expanded="true" />
-            <element signature="e#409#736#1#PHP" expanded="false" />
+            <element signature="e#212#251#0#PHP" expanded="false" />
+            <element signature="e#409#769#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -430,10 +440,12 @@
           <caret line="68" column="58" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="58" />
           <folding>
             <element signature="e#478#1126#0#PHP" expanded="false" />
-            <marker date="1491243187661" expanded="true" signature="534:554" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="534:626" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
-            <marker date="1491243187661" expanded="true" signature="1276:1329" ph="select * fro... noticias" />
+            <marker date="1491246098353" expanded="true" signature="534:554" ph="insert into noticias... " />
+            <marker date="1491246098353" expanded="true" signature="534:626" ph="insert into noticias... " />
+            <marker date="1491246098353" expanded="true" signature="1293:1345" ph="select * fro... noticias" />
+            <marker date="1491246098353" expanded="true" signature="1293:1346" ph="select * fro... noticias" />
+            <marker date="1491246098353" expanded="true" signature="1374:1406" ph="select * fro... noticia" />
+            <marker date="1491246098353" expanded="true" signature="1374:1407" ph="select * fro... noticia" />
           </folding>
         </state>
       </provider>
@@ -514,18 +526,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/inde.html" />
-    <entry file="file://$PROJECT_DIR$/css/comic.news.home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="e#11#106#0" expanded="false" />
-            <element signature="e#281#401#0" expanded="false" />
-            <element signature="e#788#890#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ckeditor/lang/af.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -545,6 +545,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -602,13 +603,6 @@
             <marker date="1491153356310" expanded="true" signature="2229:2269" ph="update base-... " />
             <marker date="1491153356310" expanded="true" signature="2229:2276" ph="update base-... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/newscomic.home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -678,17 +672,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="53" column="53" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
-          <folding>
-            <element signature="e#212#251#0#PHP" expanded="true" />
-            <element signature="e#409#736#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/cadastrar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -705,24 +688,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
+    <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#478#1126#0#PHP" expanded="false" />
-            <marker date="1491243187661" expanded="true" signature="534:554" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="534:626" ph="insert into noticias... " />
-            <marker date="1491243187661" expanded="true" signature="1276:1328" ph="select * fro... noticias" />
-            <marker date="1491243187661" expanded="true" signature="1276:1329" ph="select * fro... noticias" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/newscomic.cadastrar.js">
+    <entry file="file://$PROJECT_DIR$/css/comic.news.home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
+        <state relative-caret-position="234">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#11#106#0" expanded="false" />
+            <element signature="e#283#403#0" expanded="false" />
+            <element signature="e#790#892#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/api/v1/application/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#478#1126#0#PHP" expanded="false" />
+            <marker date="1491246098353" expanded="true" signature="534:554" ph="insert into noticias... " />
+            <marker date="1491246098353" expanded="true" signature="534:626" ph="insert into noticias... " />
+            <marker date="1491246098353" expanded="true" signature="1293:1345" ph="select * fro... noticias" />
+            <marker date="1491246098353" expanded="true" signature="1293:1346" ph="select * fro... noticias" />
+            <marker date="1491246098353" expanded="true" signature="1374:1406" ph="select * fro... noticia" />
+            <marker date="1491246098353" expanded="true" signature="1374:1407" ph="select * fro... noticia" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/api/v1/routers/Noticias.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/newscomic.home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="47" column="91" selection-start-line="47" selection-start-column="91" selection-end-line="47" selection-end-column="91" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
           </folding>

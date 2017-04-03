@@ -25,7 +25,7 @@ use Beltrao\api\v1\model\noticias;
         if($auth->authenticationToken($request->getQueryParam('app_name'), $request->getQueryParam('app_pass'))){
 
             $application = new Application();
-            $response->write($application->getNews());
+            $response->write($application->getNews(20, $request->getQueryParam('id')));
 
         }
 
@@ -50,7 +50,7 @@ use Beltrao\api\v1\model\noticias;
 
                         $noticia->titulo = $request->getParam('titulo');
                         $noticia->autor = $request->getParam('autor');
-                        $noticia->descricao = htmlentities($request->getParam('descricao'));
+                        $noticia->descricao = $request->getParam('descricao');
                         $noticia->img = $absolutePaht.$fileName;
 
                         $application = new Application();
