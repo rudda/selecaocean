@@ -32,7 +32,7 @@ $(function () {
             $('#img').html(
                 '<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">'+
                 '<div class="thumbnail">'+
-                '<img class="image-area" src="'+comic['img']+'">'+
+                '<img class="image-area" src="'+comic['img']+'" style="max-height: 600px; max-width: 300px">'+
                 '</div>'+
                 '</div>'
             );
