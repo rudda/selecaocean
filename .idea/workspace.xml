@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feb098f9-b480-42f1-bd33-24d67d04aa8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/newscomic.cadastrar.js" afterPath="$PROJECT_DIR$/js/newscomic.cadastrar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/newscomic.home.js" afterPath="$PROJECT_DIR$/js/newscomic.home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/visualizar.js" afterPath="$PROJECT_DIR$/js/visualizar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/02.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/03.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/04.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/m-01.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prints/m-02.PNG" />
     </list>
     <ignored path="selecaocean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -199,6 +202,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="prints" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selecaocean" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="selecaocean" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -258,11 +275,11 @@
       <recent name="C:\wamp\www\selecaocean\html" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\selecaocean\prints" />
       <recent name="C:\wamp\www\selecaocean\database" />
       <recent name="C:\wamp\www\selecaocean\php\api\v1" />
       <recent name="C:\wamp\www\selecaocean\js" />
       <recent name="C:\wamp\www\selecaocean\src\img\menu" />
-      <recent name="C:\wamp\www\selecaocean" />
     </key>
   </component>
   <component name="RunManager">
@@ -313,19 +330,19 @@
       <workItem from="1491060181483" duration="4279000" />
       <workItem from="1491068537096" duration="35110000" />
       <workItem from="1491162273446" duration="16809000" />
-      <workItem from="1491233224476" duration="20109000" />
+      <workItem from="1491233224476" duration="20721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76307000" />
+    <option name="totallyTimeSpent" value="76919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1364" height="726" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20474778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20474778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
