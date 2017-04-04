@@ -28,10 +28,12 @@ Repositorio para seleção de estagio Web Samsung Ocean
 
 
 
-# Recursos
+# Recursos Externos
 
 * bootstrap
 * Slim
+* JQuery
+* CKEDITOR
 
 # Atributos
 
