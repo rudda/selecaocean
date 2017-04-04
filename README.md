@@ -14,7 +14,16 @@ Repositorio para seleção de estagio Web Samsung Ocean
 
 * obs: o banco de dados atualizado chama-se database-v2.sql
 
-# Preview
+# Preview Mobile
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/m-01.PNG)
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/m-02.PNG)
+
+
+# Preview Desktop
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/01.PNG)
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/02.PNG)
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/03.PNG)
+![Mobile 01](https://raw.githubusercontent.com/rudda/selecaocean/master/prints/04.PNG)
 
 
 
